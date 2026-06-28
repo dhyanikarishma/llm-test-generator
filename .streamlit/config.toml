@@ -1,0 +1,17 @@
+[theme]
+base = "dark"
+primaryColor = "#6C5CE7"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1A1D29"
+textColor = "#E6E8EF"
+font = "sans serif"
+
+[server]
+# Security hardening for the built-in server.
+enableXsrfProtection = true   # protects against cross-site request forgery
+enableCORS = true             # do not allow arbitrary cross-origin requests
+headless = true
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
